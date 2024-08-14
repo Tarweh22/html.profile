@@ -1,0 +1,40 @@
+.top-container{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  text-decoration: dotted;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  
+  .profile-img {
+    height: 100px;
+    border-radius: 0.75rem;
+  }
+body{
+  text-decoration: #00bfff;
+}
+.bottom-container{
+  background-color: #00bfff;
+  text-align: center;
+  gap: 5rem;
+  
+}
+.footer-link{
+  display: grid;
+
+}
+ 
+
+  
